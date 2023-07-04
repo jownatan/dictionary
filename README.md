@@ -8,8 +8,11 @@ O Words API Flutter App é um aplicativo que implementa a Words API para listar 
 Lista de Linguagens, Frameworks e Tecnologias:
 
 Linguagem: Dart
+
 Framework: Flutter
+
 Tecnologias: Firebase Auth, Shared Preferences
+
 Instruções de instalação e uso:
 
 1 - Clone o repositório do projeto do GitHub: [URL do repositório]
