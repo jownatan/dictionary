@@ -1,0 +1,40 @@
+name: words
+description: Make code chill!
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  flutter/foundation.dart: ^1.14.2
+  flutter_isolate: ^2.0.4
+  cloud_firestore: ^4.7.1
+  firebase_auth: ^4.6.1
+  firebase_core: ^2.14.0
+  http: ^0.13.6
+  shared_preferences: ^2.1.1 
+  firebase_storage: ^11.2.1
+  path_provider: ^2.0.15
+  flutter_cache_manager: ^3.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/json/words_dictionary.json
+
+  fonts:
+    - family: btt
+      fonts:
+        - asset: lib/Fonts/bttDbold.otf
+          weight: 900
+        - asset: lib/Fonts/bttnormallight.otf
+          weight: 200
+    - family: code
+      fonts:
+        - asset: lib/Fonts/CodeNext-ExtraBold.ttf
+          weight: 900
+        - asset: lib/Fonts/CodeNext-Trial-Regular.ttf
+          weight: 200

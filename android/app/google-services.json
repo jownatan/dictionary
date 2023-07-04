@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980180507972",
+    "project_id": "words-9d7cc",
+    "storage_bucket": "words-9d7cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980180507972:android:890e640c037bde6d104b11",
+        "android_client_info": {
+          "package_name": "com.nebulalabs.words"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980180507972-9cr3fhpgl801jivtv5dpcb8o1seiia6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdFwRbDTzKqXL4-tY9bs6ZNSGGSbGZH-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980180507972-9cr3fhpgl801jivtv5dpcb8o1seiia6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
