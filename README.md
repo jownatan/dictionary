@@ -12,6 +12,7 @@ O Dicionário Flutter App é um aplicativo poderoso que utiliza a API de Palavra
 - Armazenamento em cache do histórico de pesquisas para recomendações personalizadas
 - Autenticação do usuário usando o Firebase Auth
 - Integração perfeita com o Shared Preferences para armazenamento de dados
+- Lista de palavras (json) incluida dentro do aplicativo. 
 
 ## Tecnologias Utilizadas
 
