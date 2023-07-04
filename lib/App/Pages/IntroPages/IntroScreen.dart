@@ -46,7 +46,7 @@ class _IntroScreenState extends State<IntroScreen> {
       body: Center(
         child: Container(
           child: Text(
-            'WORDS',
+            'Dicionário',
             style: TextStyle(
               color: Colors.white,
               fontSize: 40,

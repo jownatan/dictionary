@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage>
           controller: _tabController,
           indicatorColor: Colors.blue,
           tabs: const [
-            Tab(text: 'Words list'),
+            Tab(text: 'Words'),
             Tab(text: 'History'),
             Tab(text: 'Favorites'),
           ],

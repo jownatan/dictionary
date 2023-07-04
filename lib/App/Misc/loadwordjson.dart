@@ -60,23 +60,31 @@ class _LoadwordjsonState extends State<Loadwordjson> {
 
         // Navigate to the next or previous word details screen based on the widget's base parameter
         if (widget.base == "next") {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-              builder: (context) => WordDetailsScreen(
-                word: next,
+          if (next.isEmpty) {
+            Navigator.pop(context);
+          } else {
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => WordDetailsScreen(
+                  word: next,
+                ),
               ),
-            ),
-          );
+            );
+          }
         } else {
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-              builder: (context) => WordDetailsScreen(
-                word: previous,
+          if (previous.isEmpty) {
+            Navigator.pop(context);
+          } else {
+            Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (context) => WordDetailsScreen(
+                  word: previous,
+                ),
               ),
-            ),
-          );
+            );
+          }
         }
       });
     } else {
